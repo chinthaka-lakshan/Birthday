@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Sudu Manika!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="film.css">
+</head>
+<body>
+
+    <!-- Cosmic Floating Background -->
+    <div class="animated-bg">
+        <div class="bg-shape shape-1 floating-slow"></div>
+        <div class="bg-shape shape-2 floating-med"></div>
+        <div class="bg-shape shape-3 floating-fast"></div>
+        <div class="bg-shape shape-4 floating-slow"></div>
+        <div class="bg-shape shape-5 floating-med"></div>
+        <div class="bg-shape shape-6 floating-fast"></div>
+    </div>
+
+    <!-- Scrolling Mascot -->
+    <div id="cat-container">
+        <svg viewBox="0 0 64 64" width="80" height="80" xmlns="http://www.w3.org/2000/svg" class="cat-svg">
+            <g id="cat-body">
+                <!-- Body -->
+                <path d="M 12 35 C 12 25 22 15 32 15 C 42 15 52 25 52 35 L 52 50 C 52 55 48 60 42 60 L 22 60 C 16 60 12 55 12 50 Z" fill="#ffffff" stroke="#ddd" stroke-width="2"/>
+                <!-- Ears -->
+                <path d="M 12 35 L 12 10 L 26 22 Z" fill="#ffffff" stroke="#ddd" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M 52 35 L 52 10 L 38 22 Z" fill="#ffffff" stroke="#ddd" stroke-width="2" stroke-linejoin="round"/>
+                <!-- Inner Ears -->
+                <path d="M 15 28 L 15 16 L 23 23 Z" fill="#ffb6c1" />
+                <path d="M 49 28 L 49 16 L 41 23 Z" fill="#ffb6c1" />
+                <!-- Eyes -->
+                <ellipse cx="24" cy="35" rx="3" ry="4" fill="#333" />
+                <ellipse cx="40" cy="35" rx="3" ry="4" fill="#333" />
+                <!-- Blush -->
+                <ellipse cx="18" cy="39" rx="4" ry="2" fill="#ffb6c1" opacity="0.6" />
+                <ellipse cx="46" cy="39" rx="4" ry="2" fill="#ffb6c1" opacity="0.6" />
+                <!-- Nose -->
+                <polygon points="32,38 30,36 34,36" fill="#ffb6c1" />
+                <!-- Mouth -->
+                <path d="M 32 38 Q 30 42 27 40" fill="none" stroke="#333" stroke-width="1.5" />
+                <path d="M 32 38 Q 34 42 37 40" fill="none" stroke="#333" stroke-width="1.5" />
+                <!-- Whiskers -->
+                <line x1="8" y1="36" x2="16" y2="38" stroke="#333" stroke-width="1" stroke-linecap="round"/>
+                <line x1="6" y1="40" x2="16" y2="40" stroke="#333" stroke-width="1" stroke-linecap="round"/>
+                <line x1="8" y1="44" x2="16" y2="42" stroke="#333" stroke-width="1" stroke-linecap="round"/>
+                <line x1="56" y1="36" x2="48" y2="38" stroke="#333" stroke-width="1" stroke-linecap="round"/>
+                <line x1="58" y1="40" x2="48" y2="40" stroke="#333" stroke-width="1" stroke-linecap="round"/>
+                <line x1="56" y1="44" x2="48" y2="42" stroke="#333" stroke-width="1" stroke-linecap="round"/>
+            </g>
+        </svg>
+    </div>
+
+    <!-- Main Content Container -->
+    <div class="smooth-scroll-wrapper" id="smooth-wrapper">
+        <div class="smooth-content" id="smooth-content">
+
+            <!-- Slide 1: Hero -->
+            <section class="slide hero-slide">
+                <div class="container floating-container floating-med">
+                    <h1 class="hero-title floating-fast text-glow">Happy Birthday<br>Sudu Manika!</h1>
+                    <p class="subtitle floating-slow">May 12 - A special day for my special one ✨</p>
+                    <div class="scroll-indicator floating-fast">
+                        <p>Scroll down</p>
+                        <span>⬇</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 2: The Beginning -->
+            <section class="slide split-slide">
+                <div class="container floating-container box-layout text-left floating-med">
+                    <div class="text-content">
+                        <h2>Our Unexpected Journey</h2>
+                        <p>It’s crazy to think we were just campus friends first. Just random lectures, sharing notes, and passing time.</p>
+                        <p>I never knew those simple campus days were secretly writing the beautiful first chapter of our story together.</p>
+                    </div>
+                    <div class="image-content floating-slow">
+                        <div class="image-frame">
+                            <img src="images/campus_day.jpeg" alt="Campus Days" class="photo-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 3: The Turning Point -->
+            <section class="slide split-slide reverse">
+                <div class="container floating-container box-layout text-right floating-slow">
+                    <div class="image-content floating-med">
+                        <div class="image-frame">
+                            <img src="images/bus_moment.png" alt="Bus Ride Home" class="photo-img">
+                        </div>
+                    </div>
+                    <div class="text-content">
+                        <h2>The Unexpected Kiss 😜</h2>
+                        <p>That April vacation bus ride home... Instead of a normal goodbye, I just gave you a kiss.</p>
+                        <p>You didn't expect it, and honestly, neither did I! But that one daring moment started this incredible 2-year journey of us.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 4: Romance -->
+            <section class="slide split-slide">
+                <div class="container floating-container box-layout text-left floating-med">
+                    <div class="text-content">
+                        <h2>Our Special Times</h2>
+                        <p>Over the years, we've had so many beautiful moments. But nothing beats the romantic vibes when we are just alone, in our own little world 😜.</p>
+                        <p>You make every second feel like magic, Sudu Manika.</p>
+                    </div>
+                    <div class="image-content floating-slow">
+                        <div class="image-frame">
+                            <img src="images/romantic_time.jpeg" alt="Romantic Times" class="photo-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 5: Milestones -->
+            <section class="slide timeline-slide">
+                <div class="container floating-container floating-slow">
+                    <h2 class="text-center timeline-title text-glow">2 Years of Us</h2>
+                    <div class="timeline">
+                        <div class="timeline-item floating-fast">
+                            <div class="dot"></div>
+                            <div class="content">
+                                <h3>Campus Friends</h3>
+                                <p>Where the invisible connection began.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item floating-med">
+                            <div class="dot"></div>
+                            <div class="content">
+                                <h3>The April Bus Ride</h3>
+                                <p>That unexpected kiss that changed everything.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item floating-slow">
+                            <div class="dot"></div>
+                            <div class="content">
+                                <h3>Growing Closer</h3>
+                                <p>Building our love through countless memories and special times.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item floating-med">
+                            <div class="dot"></div>
+                            <div class="content">
+                                <h3>Today</h3>
+                                <p>Celebrating you, my everything.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 6: Final -->
+            <section class="slide final-slide">
+                <div class="container floating-container floating-med text-center">
+                    <div class="cake-container floating-fast">
+                        <!-- CSS/SVG Birthday Cake -->
+                        <div class="cake">
+                            <div class="candle">
+                                <div class="flame"></div>
+                            </div>
+                            <div class="top-tier"></div>
+                            <div class="bottom-tier"></div>
+                        </div>
+                    </div>
+                    <h2 class="text-glow">Happy Birthday, Sudu Manika!</h2>
+                    <p class="final-message">"I wish for your life to be as sweet as that first kiss! 😜"</p>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="film.js"></script>
+</body>
+</html>
